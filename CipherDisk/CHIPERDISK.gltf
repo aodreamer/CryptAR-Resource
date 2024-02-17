@@ -1,0 +1,219 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Circle",
+            "scale" : [
+                0.125,
+                1,
+                0.125
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Circle.001",
+            "scale" : [
+                0.09259576350450516,
+                0.7407661080360413,
+                0.09259576350450516
+            ],
+            "translation" : [
+                0,
+                0.00035829097032546997,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8000000715255737,
+                    0.6207088828086853,
+                    0.10857491195201874,
+                    1
+                ],
+                "metallicFactor" : 0.5,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.4781244397163391,
+                    0.4902086555957794,
+                    0.41264060139656067,
+                    1
+                ],
+                "metallicFactor" : 0.5,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Circle.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 7673,
+            "max" : [
+                0.9843336343765259,
+                0,
+                0.9843335747718811
+            ],
+            "min" : [
+                -0.9843336343765259,
+                -0.020000001415610313,
+                -0.9843336343765259
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 7673,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 7673,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 21696,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 13738,
+            "max" : [
+                0.9843336343765259,
+                -2.9103830456733704e-11,
+                0.9843335747718811
+            ],
+            "min" : [
+                -0.9843336343765259,
+                -0.020000001415610313,
+                -0.9843336343765259
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 13738,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 13738,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 41892,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 92076,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 92076,
+            "byteOffset" : 92076
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 61384,
+            "byteOffset" : 184152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 43392,
+            "byteOffset" : 245536
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 164856,
+            "byteOffset" : 288928
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 164856,
+            "byteOffset" : 453784
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 109904,
+            "byteOffset" : 618640
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 83784,
+            "byteOffset" : 728544
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 812328,
+            "uri" : "CHIPERDISK.bin"
+        }
+    ]
+}
